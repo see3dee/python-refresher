@@ -10,7 +10,7 @@
 #
 # user_age_in_seconds()
 
-# def add_2_numbers(x, y):  #function with parameters
+# def add_2_numbers(x, y):  #function with 2 parameters
 #     sum = x + y
 #     print(sum)
 #
