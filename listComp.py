@@ -1,8 +1,9 @@
+# Simple
 numbers = [1, 3, 5]
 doubled = [num*2 for num in numbers]
 print(doubled)
 
-
+# With filter
 friends = ["Rolf", "Bob", "Sara", "Smith", "Lucy"]
 starts_s = [f for f in friends if f.startswith('S')]
 
