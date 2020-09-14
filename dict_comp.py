@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 9cb5d9ae21c2dea557db4f8c75814a0aaec267bb
 users = [(0, "Bob", "password"),
          (1, "Rolf", "passgood"),
          (2, "Jose", "passold"),
