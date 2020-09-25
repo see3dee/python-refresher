@@ -4,14 +4,15 @@ class Person:
         self.age = age
 
     def __str__(self):
-        print(f"{self.name} is {self.age} years old")
+        return f"{self.name} is {self.age} years old"
 
     def __repr__(self):
-        print(f"{self.name} is {self.age} years old")
+        return f"{self.name} is {self.age} years old"
 
 
 bob = Person("Bob", 35)
 
-bob.__str__()
-bob.__repr__()
+# bob.__str__()
+# bob.__repr__()
 
+print(bob)
