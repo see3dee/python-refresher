@@ -6,8 +6,8 @@ class Person:
     def __str__(self):
         return f"{self.name} is {self.age} years old"
 
-    def __repr__(self):
-        return f"{self.name} is {self.age} years old"
+    # def __repr__(self):
+    #     return f"{self.name} is {self.age} years old"
 
 
 bob = Person("Bob", 35)
