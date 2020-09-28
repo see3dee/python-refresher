@@ -17,7 +17,7 @@ class Store:
 
     @classmethod
     def franchise(cls, store):
-        new_store = Store(store.name + " - franchise")
+        new_store = cls(store.name + " - franchise")
         return new_store
 
         # Return another store, with the same name as the argument's name, plus " - franchise"
