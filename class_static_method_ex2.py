@@ -17,9 +17,9 @@ class MyClass:
 print(MyClass.classmethod())
 #  Now, instantiate a new object 'obj_1' with self.name = 'Bob'
 obj_1 = MyClass('Bob')
-#  Call the new object's (instance) method
+#  Call the instance method against the new instance (2 ways)
 print(obj_1.method())
+print(MyClass.method(obj_1))
 #  Call the new object's (instance) method
 print(obj_1.staticmethod())
-
 
