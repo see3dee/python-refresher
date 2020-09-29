@@ -10,11 +10,11 @@ class Book:
         return f"<Book {self.name}, {self.book_type}, weighing {self.weight} gm.>"
 
     @classmethod
-    def hardcover(cls, name: str, weight: float):
+    def hardcover(cls, name: str, weight: float) -> "Book":
         return Book(name, Book.TYPES[0], weight + 100)
 
     @classmethod
-    def paperback(cls, name: str, weight: float):
+    def paperback(cls, name: str, weight: float) -> "Book":
         return Book(name, Book.TYPES[1], weight)
 
 
@@ -36,3 +36,6 @@ print(book1)
 
 book_new = Book('The Hobbit', 'paperback', 2.85)
 print(book_new)
+
+new_book = Book('psyco', 'paperback', 22.50)
+print(new_book)
