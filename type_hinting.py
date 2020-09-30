@@ -19,4 +19,5 @@ seq2 = [1, 2, 3, 4, 6, 6, 7]
 
 print(f" The average of this sequence is {list_ave(seq)}")
 
+
 list_ave(seq)
