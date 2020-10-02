@@ -1,4 +1,4 @@
-from imports_module import divide
+from mymodule import divide
 import sys
 
 
