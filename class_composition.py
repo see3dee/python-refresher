@@ -21,8 +21,8 @@ class Employee:
     def __str__(self):
         return f"{self.name} is a {self.age} year old {self.gender} with a weekly pay of {self.obj_salary.pay}"
 
-johnsal = Salary(1200, 500)
-print(johnsal)
+john_sal = Salary(1200, 500)
+print(john_sal)
 
 emp = Employee('Jim', 23, 'Male', 1200, 500)
 print(emp)
