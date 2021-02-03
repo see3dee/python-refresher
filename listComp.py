@@ -1,6 +1,11 @@
 # Simple
-numbers = [1, 3, 5]
+numbers = [1, 3, 5, 7, 8, 4, 2]
 doubled = [num*2 for num in numbers]
+even = [num for num in numbers if num % 2 == 0]
+
+print(even)
+
+
 print(doubled)
 
 # With filter

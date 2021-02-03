@@ -16,8 +16,10 @@ for friend in friends:
     print(type(friend)) # so applying list to a dict.items returns a list of tuples
 
 flist = (list(friends_ages.items()))
+print(flist)
+
 for f in flist:
-    print(f"{f} is in the list of tuples; applying list to a dict.items returns a list of key-value tuples")
+    print(f"{f} is a member in the list of tuples; applying list to a dict.items returns a list of key-value tuples")
 
 print(friends_ages.values())
 
