@@ -11,11 +11,11 @@ class Book:
 
     @classmethod
     def hardcover(cls, name: str, weight: float) -> "Book":
-        return Book(name, Book.TYPES[0], weight + 100)
+        return cls(name, cls.TYPES[0], weight + 100)
 
     @classmethod
     def paperback(cls, name: str, weight: float) -> "Book":
-        return Book(name, Book.TYPES[1], weight)
+        return cls(name, cls.TYPES[1], weight)
 
 
 book3 = Book.hardcover("Harry Potter", 1500)

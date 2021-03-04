@@ -25,5 +25,5 @@ print(MyClass.method(obj_1))
 #  Call the new object's (instance) method
 print(obj_1.staticmethod())
 
-print(obj_1.classmethod())  # The classmethod only has access to the object's class.
+print(obj_1.classmethod())  # The class method only has access to the object's class.
 
