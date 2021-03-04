@@ -25,11 +25,11 @@ class Store:
         return new_store
         # Return another store, with the same name as the argument's name, plus " - franchise"
 
-    # @staticmethod
-    # def store_details(store):
-    #     return f"{store.name}, total stock price: {store.stock_price()}"
-    #     # Return a string representing the argument
-    #     # It should be in the format 'NAME, total stock price: TOTAL'
+    @staticmethod
+    def store_details(store):
+        return f"{store.name}, total stock price: {store.stock_price()}"
+        # Return a string representing the argument
+        # It should be in the format 'NAME, total stock price: TOTAL'
 
 print(Store)
 store1 = Store('safeway')
@@ -37,5 +37,5 @@ print(store1)
 store1.add_item('apple', 2)
 print(store1.stock_price())
 print(store1.items)
-print(Store.franchise('test').name)
-print(Store.store_details(store1))
+# print(Store.franchise('test').name)
+# print(Store.store_details(store1))
